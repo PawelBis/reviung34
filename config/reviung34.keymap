@@ -28,10 +28,10 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <50>;
+            tapping-term-ms = <150>;
             global-quick-tap;
             hold-trigger-key-positions = <25 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
         hr_rmod: hr_rmod {
             compatible = "zmk,behavior-hold-tap";
@@ -41,10 +41,10 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <50>;
+            tapping-term-ms = <150>;
             global-quick-tap;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
         hr_hold: hr_hold {
             compatible = "zmk,behavior-hold-tap";
@@ -73,7 +73,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <17 16>;
             timeout-ms = <20>;
-            layers = <>;
         };
     };
 
