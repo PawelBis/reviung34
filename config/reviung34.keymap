@@ -111,12 +111,12 @@
             >;
         };
 
-        Mouse {
+        Lol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-                        &trans  &trans          &trans          &trans
+&kp Q  &kp W  &kp E  &kp R           &kp T      &kp Y                &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D  &kp F           &kp G      &kp H                &kp J  &kp K      &kp L    &kp TAB
+&kp Z  &kp X  &kp C  &kp V           &kp B      &kp N                &kp M  &kp COMMA  &kp DOT  &kp FSLH
+                     &kp LEFT_SHIFT  &kp SPACE         &kp LEFT_ALT         &kp LCTRL
             >;
         };
 
@@ -141,7 +141,7 @@
         Fn {
             bindings = <
 &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN  &none         &kp K_PLAY_PAUSE    &kp K_MUTE         &none            &bt BT_CLR
-&kp F11  &kp F4  &kp F5  &kp F6  &none            &none         &kp RS(K_PREVIOUS)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT
+&kp F11  &kp F4  &kp F5  &kp F6  &none            &to 2         &kp RS(K_PREVIOUS)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT
 &kp F10  &kp F1  &kp F2  &kp F3  &none            &none         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3
                          &none   &none                   &none                      &none
             >;
